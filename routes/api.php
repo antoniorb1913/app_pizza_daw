@@ -13,4 +13,5 @@ Route::get('/hello', function () {
 });
 
 Route::get('/pizza',[PizzaController::class, "getAllPizza"]);
+Route::post('/createOrder',[PizzaController::class, "createOrder"]);
 
