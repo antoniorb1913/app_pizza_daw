@@ -53,3 +53,45 @@ que apunta al contenedor de la base de datos que hemos puesto arriba, el db-dev.
 ![docker local](imagenes/prueba-dev.png)
 
 
+
+
+## DESPLIGUE EN RENDER CON POSTGRES
+
+    - web service para la pagina.
+    - postgres
+
+
+![docker local](imagenes/dos-servicios.png)
+
+
+    - variables de entorno que apuntan a la base de datos postgres creada en render.
+
+
+![docker local](imagenes/variables-entorno.png)
+
+    - prueba de despliegue de la aplicacion.
+
+
+![docker local](imagenes/prueba-render.png)
+
+    - Dockerfile
+
+![docker local](imagenes/dockerfile.png)
+
+    - Lo que hacees que el docker compose esta configurado para cargar los migrate y todo, preparado para render y el docker compose dev se que tu utilizaste los una imagen pero asi me funciona tamben.
+
+ - ENLACE DE RENDER https://app-pizza-daw-shz8.onrender.com/
+
+
+
+## RENDER MYSQL
+
+
+    - variables de entorno de mysql
+
+![docker local](imagenes/variables-entorno-mysql.png)
+
+    - lo cree una base de datos en skysql y me meti a la base de datos desde la extension y cree una base de datos llamada pizza la cosa que cuando intenta desplegar da error no se realmente es la contraseña o no , que sepas que me voy cabreado jaja.
+
+
+![docker local](imagenes/mysql-database.png)
